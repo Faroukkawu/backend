@@ -10,3 +10,6 @@
 
 ## GitHub Repositories
 
+- [Frontend Repository](https://github.com/Faroukkawu/frontend)
+- [Backend Repository](https://github.com/Faroukkawu/backend)
+
