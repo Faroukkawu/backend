@@ -1,10 +1,12 @@
 // app.js
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
+
 const connectDB = require('./config/db'); // Assuming you have a separate config/db.js file for MongoDB connection
 const lessonRoutes = require('./routes/lessons'); // Import the lesson routes
 // Load environment variables from .env file
-require('dotenv').config();
+
 const app = express();
 const cors = require('cors');
 app.use(cors()); // Allows all origins
